@@ -13,21 +13,12 @@ public class MathTests {
     @DataProvider
     public Object[][] getDoubleData() {
         return new Double[][]{
-            {10.0, 0.1},
-            {-100.0, -0.01},
-            {-1.0/3, -3.0},
-            {Double.MAX_VALUE, 0d},
-            {-Double.MAX_VALUE, 0d},
-            {Double.MIN_VALUE, Double.POSITIVE_INFINITY}
-        };
-    }
-
-    @DataProvider
-    public Object[][] getIntData() {
-        return new Object[][]{
-                {10, 0.1},
-                {-1, -1.0},
-                {100000, 1e-5}
+            {10.0, 0.1}, //Equivalence Partitioning
+            {-100.0, -0.01},//Equivalence Partitioning
+            {-1.0/3, -3.0},//Equivalence Partitioning
+            {Double.MAX_VALUE, 0d}, //Boundary Value test
+            {-Double.MAX_VALUE, 0d}, //Boundary Value test
+            {Double.MIN_VALUE, Double.POSITIVE_INFINITY} //Boundary Value test
         };
     }
 
@@ -42,17 +33,14 @@ public class MathTests {
         Assert.assertEquals(MathFunctions.Hyperbole(x), y, 1e-300);
     }
 
-    @Test(dataProvider="getIntData")
-    public void hyperboleWideIntTest(int x, double y) {
-        Assert.assertEquals(MathFunctions.Hyperbole(x), y, 1e-300);
-    }
-
     //function must return exception on 0. Expected verification of input in upper-level code
     @Test(expectedExceptions = InvalidParameterException.class)
     public void TestForInvalidInputParameter() {
         Assert.assertEquals(MathFunctions.Hyperbole(0), 1000);
     }
 
+
+    //TestNG games..
     @Test(enabled = false)
     public void excludedForAWhile01() {
         Assert.assertEquals(MathFunctions.Hyperbole(1), 1);
