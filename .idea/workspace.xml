@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5095d178-b137-4f62-978f-bd23de24b82d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/home/factory/StringTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/factory/MathFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/factory/MathFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/factory/MathTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/factory/MathTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/home/factory/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,22 +36,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathFunctions.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MathFunctions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/home/factory/MathFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MathTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/home/factory/MathTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+            <state relative-caret-position="413">
+              <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/home/factory/StringTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,9 +96,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/MathFunctions.java" />
-        <option value="$PROJECT_DIR$/src/home/factory/MathFunctions.java" />
         <option value="$PROJECT_DIR$/src/home/factory/Main.java" />
         <option value="$PROJECT_DIR$/src/home/factory/MathTests.java" />
+        <option value="$PROJECT_DIR$/src/home/factory/MathFunctions.java" />
+        <option value="$PROJECT_DIR$/src/home/factory/StringTests.java" />
       </list>
     </option>
   </component>
@@ -95,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +141,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,14 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MathTests">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="home.factory.Main" />
-      <module name="JavaTests" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
+  <component name="RunManager" selected="TestNG.StringTests">
     <configuration name="MathTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTests" />
       <extension name="coverage">
@@ -184,7 +196,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="MathTests.excludedForAWhile02" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTests" />
       <extension name="coverage">
         <pattern>
@@ -196,12 +208,12 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="home.factory" />
-      <option name="MAIN_CLASS_NAME" value="home.factory.MathTests" />
-      <option name="METHOD_NAME" value="excludedForAWhile02" />
+      <option name="MAIN_CLASS_NAME" value="home.factory.StringTests" />
+      <option name="METHOD_NAME" value="SymbolReplacememt" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
+      <option name="PARAMETERS" value="0" />
       <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -213,7 +225,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="MathTests.hyperboleWideIntTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTests.StringInvert (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTests" />
       <extension name="coverage">
         <pattern>
@@ -225,12 +237,12 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="home.factory" />
-      <option name="MAIN_CLASS_NAME" value="home.factory.MathTests" />
-      <option name="METHOD_NAME" value="hyperboleWideIntTest" />
+      <option name="MAIN_CLASS_NAME" value="home.factory.StringTests" />
+      <option name="METHOD_NAME" value="StringInvert" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
+      <option name="PARAMETERS" value="0" />
       <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -242,7 +254,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="MathTests.hyperboleWideTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTests.StringInvertDuplication" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTests" />
       <extension name="coverage">
         <pattern>
@@ -254,12 +266,41 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="home.factory" />
-      <option name="MAIN_CLASS_NAME" value="home.factory.MathTests" />
-      <option name="METHOD_NAME" value="hyperboleWideTest" />
+      <option name="MAIN_CLASS_NAME" value="home.factory.StringTests" />
+      <option name="METHOD_NAME" value="StringInvertDuplication" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
+      <option name="PARAMETERS" value="0" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="StringTests.SymbolReplacememt (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="home.factory" />
+      <option name="MAIN_CLASS_NAME" value="home.factory.StringTests" />
+      <option name="METHOD_NAME" value="SymbolReplacememt" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="0" />
       <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -272,19 +313,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG.StringTests.SymbolReplacememt (1)" />
+      <item itemvalue="TestNG.StringTests" />
+      <item itemvalue="TestNG.StringTests.StringInvert (1)" />
+      <item itemvalue="TestNG.StringTests.StringInvertDuplication" />
       <item itemvalue="TestNG.MathTests" />
-      <item itemvalue="TestNG.MathTests.hyperboleWideTest" />
-      <item itemvalue="TestNG.MathTests.hyperboleWideIntTest" />
-      <item itemvalue="TestNG.MathTests.excludedForAWhile02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StringTests" />
         <item itemvalue="TestNG.MathTests" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.MathTests.excludedForAWhile02" />
-        <item itemvalue="TestNG.MathTests.hyperboleWideIntTest" />
-        <item itemvalue="TestNG.MathTests.hyperboleWideTest" />
+        <item itemvalue="TestNG.StringTests.SymbolReplacememt (1)" />
+        <item itemvalue="TestNG.StringTests.StringInvertDuplication" />
+        <item itemvalue="TestNG.StringTests.StringInvert (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -302,35 +343,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MathTests_excludedForAWhile02 - 2018.06.08 at 00h 26m 00s.xml">
-      <configuration name="MathTests.excludedForAWhile02" configurationId="TestNG" />
+    <history-entry file="StringTests - 2018.07.07 at 23h 43m 59s.xml">
+      <configuration name="StringTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MathTests - 2018.06.08 at 00h 26m 37s.xml">
+    <history-entry file="StringTests_SymbolReplacememt_(1) - 2018.07.07 at 23h 48m 28s.xml">
+      <configuration name="StringTests.SymbolReplacememt (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringTests_SymbolReplacememt_(1) - 2018.07.07 at 23h 51m 51s.xml">
+      <configuration name="StringTests.SymbolReplacememt (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringTests_SymbolReplacememt_(1) - 2018.07.07 at 23h 53m 04s.xml">
+      <configuration name="StringTests.SymbolReplacememt (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringTests - 2018.07.07 at 23h 56m 41s.xml">
+      <configuration name="StringTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringTests_SymbolReplacememt_(1) - 2018.07.08 at 00h 05m 36s.xml">
+      <configuration name="StringTests.SymbolReplacememt (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringTests_SymbolReplacememt_(1) - 2018.07.08 at 00h 05m 52s.xml">
+      <configuration name="StringTests.SymbolReplacememt (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MathTests - 2018.07.08 at 00h 06m 10s.xml">
       <configuration name="MathTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MathTests - 2018.06.08 at 00h 32m 46s.xml">
-      <configuration name="MathTests" configurationId="TestNG" />
+    <history-entry file="StringTests - 2018.07.08 at 00h 06m 22s.xml">
+      <configuration name="StringTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MathTests - 2018.06.08 at 00h 35m 30s.xml">
-      <configuration name="MathTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MathTests - 2018.06.08 at 00h 35m 41s.xml">
-      <configuration name="MathTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MathTests - 2018.06.10 at 22h 10m 31s.xml">
-      <configuration name="MathTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MathTests - 2018.06.10 at 22h 10m 45s.xml">
-      <configuration name="MathTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MathTests - 2018.06.11 at 21h 22m 09s.xml">
-      <configuration name="MathTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MathTests - 2018.06.11 at 21h 24m 37s.xml">
-      <configuration name="MathTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MathTests - 2018.06.11 at 21h 25m 07s.xml">
-      <configuration name="MathTests" configurationId="TestNG" />
+    <history-entry file="StringTests - 2018.07.08 at 00h 22m 27s.xml">
+      <configuration name="StringTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -343,9 +384,8 @@
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.25" />
@@ -356,6 +396,7 @@
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39916405" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -368,10 +409,40 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/home/factory/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/factory/MathTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/factory/MathFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/home/factory/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -467,8 +538,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/home/factory/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="2078" column="18" selection-start-line="2078" selection-start-column="18" selection-end-line="2078" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/factory/StringTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/factory/MathTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -477,15 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/home/factory/MathFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/factory/MathTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+        <state relative-caret-position="272">
+          <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -515,7 +608,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
